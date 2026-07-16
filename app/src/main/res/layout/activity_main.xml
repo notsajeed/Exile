@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal|top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Shorts Blocker"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Status: checking..."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/enableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Open Accessibility Settings" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="How it works:\n\n1. Tap the button above.\n2. Find &quot;Shorts Blocker&quot; under Downloaded/Installed apps.\n3. Turn the toggle on and confirm.\n4. Open YouTube — whenever Shorts opens, this app will automatically back you out of it.\n\nThis runs entirely on your phone. It only looks at what app and screen is currently open; it doesn't read any content, store data, or send anything anywhere."
+        android:textSize="14sp" />
+
+</LinearLayout>

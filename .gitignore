@@ -1,0 +1,23 @@
+# Build outputs
+/app/build/
+/build/
+.gradle/
+
+# Local machine config — contains your SDK path, never commit
+local.properties
+
+# Android Studio project files
+.idea/
+*.iml
+.dist/
+
+# Signing keys — never commit these
+*.jks
+*.keystore
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

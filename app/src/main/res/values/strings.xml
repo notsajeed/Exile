@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shorts Blocker</string>
+    <string name="service_label">Shorts Blocker Detection</string>
+    <string name="service_description">Watches the YouTube app and automatically exits Shorts whenever it opens. Does not read, store, or transmit any personal data.</string>
+</resources>
