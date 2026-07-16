@@ -2,6 +2,7 @@
 /app/build/
 /build/
 .gradle/
+/app/release/
 
 # Local machine config — contains your SDK path, never commit
 local.properties

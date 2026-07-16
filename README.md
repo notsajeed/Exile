@@ -1,7 +1,7 @@
 # Exile
 
 A free, open-source Android app that automatically exits YouTube Shorts the
-moment they open — no subscription, no ads, no account, no data collection.
+moment they open. no subscription, no ads, no account, no data collection.
 
 Built because every existing "block Shorts" app on the Play Store gated the
 real fix behind a paywall. This one is free forever and the full source is
@@ -9,10 +9,13 @@ right here.
 
 ## Download
 
-**Download link coming soon** — the APK will be hosted on a dedicated site.
-This section will be updated once it's live.
+**[Download the APK](https://exileweb.pages.dev)**
 
-In the meantime, you can build it yourself (see below).
+Android will warn about installing outside the Play Store — this is normal
+for any app distributed independently, not a sign of a problem. Tap through
+to allow it, then install.
+
+You can also build it yourself (see below).
 
 ## What it does
 
@@ -33,25 +36,22 @@ to the YouTube app itself, no root required.
 
 ## Installing
 
-**Once the APK is published**, Android will warn about installing outside
-the Play Store — this is normal for any app distributed independently, not
-a sign of a problem. Tap through to allow it, then install.
+1. [Download the APK](https://exileweb.pages.dev) and install it — Android
+   will warn about installing outside the Play Store, which is normal for
+   independently distributed apps. Tap through to allow it.
 
-**Until then, build it yourself:**
+   **Or build it yourself:**
+   1. Install [Android Studio](https://developer.android.com/studio) (free).
+   2. Clone this repo.
+   3. Open the project folder in Android Studio and let it sync.
+   4. Connect an Android phone via USB with **USB debugging** enabled
+      (Settings → About phone → tap Build number 7x → Developer options →
+      enable USB debugging).
+   5. Click **Run**, select your device. It installs directly.
 
-1. Install [Android Studio](https://developer.android.com/studio) (free).
-2. Clone this repo.
-3. Open the project folder in Android Studio and let it sync.
-4. Connect an Android phone via USB with **USB debugging** enabled
-   (Settings → About phone → tap Build number 7x → Developer options →
-   enable USB debugging).
-5. Click **Run**, select your device. It installs directly.
-
-**After installing (either method):**
-
-1. Open **Exile** → tap **"Open Accessibility Settings."**
-2. Find **Exile** in the list → turn it on.
-3. Open YouTube, tap a Short — it should immediately back out.
+2. Open **Exile** → tap **"Open Accessibility Settings."**
+3. Find **Exile** in the list → turn it on.
+4. Open YouTube, tap a Short — it should immediately back out.
 
 ## Contributing
 
